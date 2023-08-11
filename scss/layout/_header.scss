@@ -1,0 +1,76 @@
+
+@import "../utilities/variables";
+
+
+header { 
+
+      img:    { width: 100px;
+               height: 100px;
+               display: $display-flex;
+             }
+
+
+      nav:  { background-color: $color-header-footer;
+             display:$display-flex;
+    
+                ul: {
+                    
+                   align-items:center;
+                   justify-content: space-around;
+                   text-decoration: none ;
+                   display: $display-flex;
+
+
+                   li:  { 
+                    font-family: $fuente-general;
+                    font-size: $fuente-tamaño-enlaces ; 
+                    border-bottom: $color-tamaño-enlaces;
+                    border-top: $color-tamaño-enlaces;
+                    border-left: $color-tamaño-enlaces;
+                    border-right: $color-tamaño-enlaces;
+                    margin: $margin-li-header;
+
+                     a: { 
+                          color: $color-header-footer;
+                          font-size: 3.0rem;
+                          display: $display-flex;
+                        }
+
+                }
+
+                }
+            }
+
+        }
+
+
+
+
+ #inicio:hover
+{
+   background-color: black;
+
+}
+
+
+#contacto:hover
+{
+    background-color: black;
+}
+
+
+#catalogomenu:hover
+{
+    background-color: black;
+    }
+
+
+#servicios:hover
+{
+    background-color: black;
+}
+
+#nosotros:hover
+{
+    background-color: black;
+}
