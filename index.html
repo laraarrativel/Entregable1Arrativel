@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title> 𝐇𝐓 ★ 𝓟𝓮𝓲𝓷𝓪𝓽𝓮 𝓬𝓸𝓷𝓶𝓲𝓰𝓸 ★ </title>
 
     <!--aca va el archivo css bootstrap-->
@@ -12,7 +13,8 @@
     <!--aca va el archivo css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imag/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     
 </head> 
 
@@ -24,14 +26,14 @@
 <nav  id="header nav">  
 <ul> 
 <li><img src="imag/logo.png" alt="" id="logo"> </li>
-<li id="inicio"> <a href="index.html"> Inicio </a> </li> 
-<li id="contacto"> <a href="contacto.html"> Contacto </a> </li>
-<li id="catalogomenu"> <a href="catalogo.html"> Catalogo </a> </li>
-<li id="servicios"> <a href="servicios.html"> Servicios </a> </li>
- <li id="nosotros"><a href="nosotros.html"> Nosotros</a> </li>
+<li id="navhover"> <a href="index.html"> Inicio </a> </li> 
+<li id="navhover"> <a href="html/contacto.html"> Contacto </a> </li>
+<li id="navhover"> <a href="html/catalogo.html"> Catalogo </a> </li>
+<li id="navhover"> <a href="html/servicios.html"> Servicios </a> </li>
+ <li id="navhover"><a href="html/nosotros.html"> Nosotros </a> </li>
  <li><img src="imag/logo.png" alt="" id="logo"> </li> 
-  
 </ul> 
+
 </nav>
         
 </header> 
@@ -41,13 +43,14 @@
 
 <!--aca va el carrousel-->
 <section>
-<div id="carouselExampleCaptions" class="carousel slide">
+<div id="carouselExampleCaptions" class="carousel slide" data-aos="fade-down-right">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 
+    1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="cardcatalogo">
     <div class="carousel-item active">
       <img src="imag/Banner.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
@@ -64,10 +67,10 @@
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span class="visually-hidden"></span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control--icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
@@ -79,23 +82,23 @@
 
 
 <section>
-<div class="container text-center">
+<div class="container text-center" id="card" >
   <div class="row row-cols-4">
     <div class="col1">
-      <div class="card" style="width: 18rem;" id="video1">
+      <div class="card" style="width: 18rem;" id="video1" data-aos="flip-right">
         <video src="video/evetrenzas.mp4"controls> </video>
         <div class="card-body">
-          <p class="card-text"><strong></strong> 
+          <p class="card-text"><strong>Trenzas en todo el frontal</strong> 
           </p>
         </div>
       </div>
     </div>
 
     <div class="col2">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem;" data-aos="flip-right">
         <video src="video/laterales.mp4"controls> </video>
         <div class="card-body">
-          <p class="card-text"><strong></strong> 
+          <p class="card-text"><strong>Trenzas laterales con accesorios</strong> 
           </p>
         </div>
       </div>
@@ -103,10 +106,10 @@
 
 
     <div class="col3">
-      <div class="card" style="width: 18rem;" id="video1">
+      <div class="card" style="width: 18rem;" id="video1" data-aos="flip-right">
         <video src="video/recogidomp4.mp4"controls> </video>
         <div class="card-body">
-          <p class="card-text"><strong></strong> 
+          <p class="card-text"><strong>Recogido de trenzas cosidas</strong> 
        </p>
         </div>
       </div>
@@ -114,10 +117,10 @@
 
 
     <div class="col4">
-      <div class="card" style="width: 18rem;" id="video1">
+      <div class="card" style="width: 18rem;" id="video1" data-aos="flip-right">
         <video src="video/trenzasconcoleta.mp4"controls> </video>
         <div class="card-body">
-          <p class="card-text"><strong></strong> 
+          <p class="card-text"><strong>Trenzas cosidas con coleta</strong> 
        </p>
         </div>
       </div>
@@ -129,11 +132,13 @@
 <!--aca finalizan las tarjetas-->
 
 
-<section id="mediosdepago">
-    <div><p> Medios de pago </p> </div>
+<section id="mediosdepago" data-aos="flip-left"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">
+    <div><p id="mediosdepago2"> Medios de pago </p> </div>
     <div> 
       <ul>
-    <li> Efectivo </li>
+    <li > Efectivo </li>
     <li>Tarjeta de credito </li>
     <li>Tarjeta de debito </li>
     <li>Transferencia</li>
@@ -142,13 +147,24 @@
 </div>
 </section>
 
-  <footer id="derechos">
-    <h6> <em>
+<div>
+  <a href="https://wa.me/message/NDM2M4H37MPCC1"><img src="imag/whatsapp-96.png" alt="" id="logowhats"></a>
+</div>
+
+  <footer>
+    <h6  id="derechos"> <em>
       Derechos reservados 2023 </em> 
     </h6>
  </footer>
-  
+
+
 <!-- aca va el scrip -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 

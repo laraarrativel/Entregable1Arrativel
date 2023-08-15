@@ -1,0 +1,34 @@
+
+#navhover:hover {
+background-color: black;
+border-radius: 300px;
+transform: rotate(20deg);
+}
+
+#navhover {
+    cursor: pointer;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#logowhats {
+    width: 100px;
+    margin-left: 1400px;
+    transition: all 1s;
+    position:fixed ;
+    bottom: 0px;
+}
+
+#logowhats:hover {
+    border-radius: 300px;
+    transform: rotate(360deg);
+}
+
+#cardcatalogo {
+    transition: all 1s;
+}
+
+#cardcatalogo:hover {
+transform: translatey(60px);
+}
+

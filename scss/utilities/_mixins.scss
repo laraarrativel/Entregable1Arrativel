@@ -1,0 +1,101 @@
+
+//inicio index
+
+
+@mixin medios-li { 
+    font-size: 60px;
+    text-align: $centrar;
+    list-style-type: $no-style;
+    color:$color-header-footer;}
+
+@mixin cards {
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: $display-flex ;
+    cursor: pointer;
+}
+
+@mixin carrousel {
+    width: 80rem;
+    margin-left: 120px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+@mixin footer {
+        font-size: 20px; 
+        text-align: $centrar;
+        background-color: $color-header-footer;
+        margin-top: 50px;
+        margin-bottom: 0;}
+
+//fin index
+
+//inicio contacto
+
+@mixin boton-contacto {
+               font-size: 50px;
+               text-align: $centrar;
+               color:$color-principal;
+               background-color: $color-header-footer;
+               margin-left: 650px;
+               margin-right: 600px;
+               margin-top: 50px;
+               margin-bottom: 50px;
+               text-decoration: $no-style;
+               border-radius: 15px;
+               padding: 30px;
+               grid-area: boton;
+               display: $display-flex;
+}
+
+
+@mixin titulo-contacto {
+             font-family: $fuente-general;
+             font-size: 50px;
+             text-align: $centrar;
+             color: $color-header-footer ;
+             margin-top: 50px;
+}
+
+// fin contacto
+
+//inicio catalogo
+
+@mixin centrar-catalogo {
+              margin-left: 250px;
+              margin-right: 120px;
+              margin-top: 100px;
+              margin-bottom: 50px;
+}
+
+@mixin buscador {  
+              text-align: $centrar;
+}
+
+// fin catalogo
+
+
+//inicio nosotros
+
+@mixin titulo-nosotros {
+             font-size: 60px;
+             text-align: $centrar;
+             color: $color-header-footer;
+             font-family: $fuente-general;
+            margin-top: 80px;
+}
+
+@mixin presentacion-nosotros {
+             font-size: 40px; 
+             text-align: $centrar;
+}
+
+@mixin fotos-nosotros {
+             text-align: $centrar;
+             justify-content: space-around;
+             display:$display-flex ;
+}
+
+// fin nosotros
