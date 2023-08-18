@@ -18,6 +18,20 @@
   margin-top: 100px;
 }
 
+#mediosdepago {
+  background-color: black;
+  font-size: 100px;
+  text-align: center;
+  list-style-type: none;
+  color: rgb(99, 8, 67);
+}
+#mediosdepago ul li {
+  font-size: 60px;
+  text-align: center;
+  list-style-type: none;
+  color: rgb(99, 8, 67);
+}
+
 #redes h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
@@ -180,7 +194,7 @@ header nav ul li a {
   transform: translatey(60px);
 }
 
-@media (max-width: 620px) {
+@media (max-width: 600px) {
   #header {
     background-color: 1px solid black;
     border-bottom: 1px solid black;
@@ -191,7 +205,6 @@ header nav ul li a {
   #header #logo {
     width: 20px;
     height: 20px;
-    margin-right: 0px;
   }
   #header nav ul {
     list-style-type: none;
@@ -209,21 +222,30 @@ header nav ul li a {
     display: flex;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 600px) {
   #carouselExampleCaptions {
-    width: 280px;
-    margin-top: 40px;
+    width: 300px;
+    margin-top: 70px;
     margin-bottom: 1px;
-    margin-left: 12px;
+    margin-left: 35px;
     display: flex;
+  }
+}
+@media (max-width: 600px) {
+  #card {
+    width: 5px;
+    margin-left: 35px;
   }
 }
 @media (max-width: 600px) {
   #mediosdepago2 {
     font-size: 50px;
   }
-  #medios2 {
-    font-size: 50px;
+}
+@media (max-width: 600px) {
+  .card2 {
+    width: 100px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 600px) {
@@ -243,26 +265,18 @@ header nav ul li a {
   #buscar {
     width: 100px;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 50px;
   }
 }
 @media (max-width: 600px) {
   .card {
     width: 80px;
     margin-top: 10px;
-    margin-right: 10px;
   }
 }
 @media (max-width: 600px) {
   #tituloservic {
     font-size: 20px;
-    margin-left: 20px;
-    margin-top: 0px;
-  }
-}
-@media (max-width: 600px) {
-  #info {
-    width: 60px;
   }
 }
 @media (max-width: 600px) {
@@ -277,8 +291,103 @@ header nav ul li a {
 }
 @media (max-width: 600px) {
   #coment {
-    width: 300px;
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    background-color: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+  }
+  #header #logo {
+    width: 50px;
+    height: 40px;
+  }
+  #header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #header nav ul li {
+    margin: 4px;
+  }
+  #header nav ul li a {
+    text-decoration: none;
+    color: lightpink;
+    font-size: 30px;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  #carouselExampleCaptions {
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 1px;
+    margin-left: 75px;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  #mediosdepago2 {
+    font-size: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  #video1 {
+    width: 150px;
+    margin-top: 100px;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  #contacto {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #redes {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #buscar {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 80px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #tituloservic {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #evento {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #coment {
+    width: 350px;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
