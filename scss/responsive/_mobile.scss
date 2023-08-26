@@ -92,25 +92,32 @@
 //servicios 
 
 @media (max-width: 600px){
-   #tituloservic {
-       font-size: 20px;
-       margin-left: 20px;
-       margin-top: 0px;
+   #peinadosservicio1 {
+       font-size: 30px;
+       margin-right: 10px;
+       margin-top: 25px;
   } }
 
   @media (max-width: 600px){
-    #info {
-        width: 60px;
+    #img {
+        width: 70px;
+        margin-top: 5px;
+        margin-right: 30px;
+        border-bottom: 10px;
+
    } }
  
 
 
 @media (max-width: 600px){
    #evento {
-       font-size: 20px;
+       font-size: 30px;
+       margin-right: 90px;
+
   } }
 
 //nosotros
+
 
   @media (max-width: 600px){
    .card-text {
